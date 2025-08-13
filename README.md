@@ -45,7 +45,7 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 
 **2 — Silver folder contains**
 - `6 Notebook Bronze to Silver output.png`  
-- `6_1 nb_bronze_to_silver.py`  *(PySpark + Spark SQL)*
+- `6_1 nb_bronze_to_silver.py`
 
 **3 — Gold folder contains**
 - `7 nb_silver_to_gold.py`  
@@ -68,3 +68,4 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 - Built on **Microsoft Fabric** (Azure) Lakehouse with **Delta Lake** storage.
 - Uses **Data Pipeline** patterns familiar to Azure Data Factory users.
 - Leverages **PySpark** and **Spark SQL** for transformations, governance, and incremental upserts.
+
