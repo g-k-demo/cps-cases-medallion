@@ -51,7 +51,7 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 - `7 nb_silver_to_gold.py`  
 - `7_1 Notebook Silver to Gold output.png`  
 - `8 CPS Cases Gold Semantic Model.png`  
-- `9 Test Gold Semantic Model using visuals in Power BI.png`  *(visuals are screenshots)*
+- `9 Test Gold Semantic Model using visuals in Power BI.png`
 
 ---
 
@@ -68,4 +68,5 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 - Built on **Microsoft Fabric** (Azure) Lakehouse with **Delta Lake** storage.
 - Uses **Data Pipeline** patterns familiar to Azure Data Factory users.
 - Leverages **PySpark** and **Spark SQL** for transformations, governance, and incremental upserts.
+
 
