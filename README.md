@@ -58,7 +58,7 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 ## How to explore (for CPS reviewers)
 
 - Open the **Silver** notebook (`6_1 nb_bronze_to_silver.py`) to see the PySpark cleansing and **Spark SQL MERGE** logic writing to the Lakehouse (`silver.cps_cases`).
-- Open the **Gold** notebook (`7 nb_silver_to_gold.py`) to see dimension/fact creation, partitioning, and **OPTIMIZE** steps.
+- Open the **Gold** notebook (`7_1 nb_silver_to_gold.py`) to see dimension/fact creation, partitioning, and **OPTIMIZE** steps.
 - Use the **screenshots** to verify the pipeline configuration, Delta outputs, semantic model, and example visuals.
 
 ---
@@ -68,6 +68,7 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 - Built on **Microsoft Fabric** (Azure) Lakehouse with **Delta Lake** storage.
 - Uses **Data Pipeline** patterns familiar to Azure Data Factory users.
 - Leverages **PySpark** and **Spark SQL** for transformations, governance, and incremental upserts.
+
 
 
 
