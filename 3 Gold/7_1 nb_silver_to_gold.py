@@ -269,10 +269,6 @@ WHEN NOT MATCHED THEN INSERT (
 # --------------------
 # 6) Optimize (Fabric V-Order)
 # --------------------
-spark.sql(f"OPTIMIZE {GOLD_SCHEMA}.dim_date")
-spark.sql(f"OPTIMIZE {GOLD_SCHEMA}.dim_demographic")
-spark.sql(f"OPTIMIZE {GOLD_SCHEMA}.dim_offence")
-spark.sql(f"OPTIMIZE {GOLD_SCHEMA}.dim_outcome")
 spark.sql(f"OPTIMIZE {GOLD_SCHEMA}.fact_cps_case")
 
 # --------------------
