@@ -31,6 +31,13 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 
 ## Repository map
 
+**Source — Synthetic CPS Cases (sample data)**
+- `synthetic_cps_cases_London.csv`
+- `synthetic_cps_cases_North_West.csv`
+- `synthetic_cps_cases_South_East.csv`
+- `synthetic_cps_cases_West_Midlands.csv`
+- `synthetic_cps_cases_Yorkshire.csv`
+
 **0 — Orchestrator**
 - `0 CPS Cases — Medallion Orchestrator pipeline.png`  
   *(Shows Bronze pipeline → Silver notebook → Gold notebook orchestration.)*
@@ -68,6 +75,7 @@ The **Bronze** layer ingests raw regional CSV files from a public GitHub reposit
 - Built on **Microsoft Fabric** (Azure) Lakehouse with **Delta Lake** storage.
 - Uses **Data Pipeline** patterns familiar to Azure Data Factory users.
 - Leverages **PySpark** and **Spark SQL** for transformations, governance, and incremental upserts.
+
 
 
 
